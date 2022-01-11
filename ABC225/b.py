@@ -6,4 +6,7 @@ for _ in range(N - 1):
     counter[a] += 1
     counter[b] += 1
 
-print("Yes" if N - 1 in counter else "No")
+if N - 1 in counter:
+    print("Yes")
+else:
+    print("No")
